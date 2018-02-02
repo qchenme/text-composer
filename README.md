@@ -1,6 +1,8 @@
 # Text-Composer
 MIDI Sonification of text message (implemented based on MAX/MSP)
 
+![Presentation mode view](https://raw.githubusercontent.com/qchenme/Text-Composer/master/UI.png)
+
 ## Work flows and detailed design explaination
 ### 3 main sub-patchers
 * Transfer: Take text input and transfer to ASCII numbers that within the range(0-127). Save all numbers to a message and then send it.
